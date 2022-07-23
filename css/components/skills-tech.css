@@ -1,0 +1,10 @@
+.skills-tech {
+    display: flex;
+    font-family: "Press Start 2P", "Arial", "Helvetica", "sans-serif";
+    color: white;
+    font-size: 25px;
+}
+
+.skills-tech .icon {
+    margin-right: 25px;
+}
