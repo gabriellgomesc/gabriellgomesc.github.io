@@ -8,3 +8,9 @@
 .skills-tech .icon {
     margin-right: 25px;
 }
+
+.skills-tech .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
