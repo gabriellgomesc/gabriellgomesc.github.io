@@ -3,10 +3,12 @@
     font-family: "Press Start 2P", "Arial", "Helvetica", "sans-serif";
     color: white;
     font-size: 25px;
+    align-items: center;
 }
 
 .skills-tech .icon {
-    margin-right: 25px;
+    margin-right: 20px;
+    width: 90px;
 }
 
 .skills-tech .right {
