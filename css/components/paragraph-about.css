@@ -1,0 +1,10 @@
+.paragraph-about {
+    font-family: "Fira Code", "sans-serif";
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    text-shadow: 2px 2px 7px black;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+}
