@@ -1,133 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <title>Gabriel</title>
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/components/action.css">
-        <link rel="stylesheet" href="css/components/banner.css">
-        <link rel="stylesheet" href="css/components/box.css">
-        <link rel="stylesheet" href="css/components/button.css">
-        <link rel="stylesheet" href="css/components/card-project.css">
-        <link rel="stylesheet" href="css/components/header.css">
-        <link rel="stylesheet" href="css/components/main-title.css">
-        <link rel="stylesheet" href="css/components/paragraph-about.css">
-        <link rel="stylesheet" href="css/components/progress-bar.css">
-        <link rel="stylesheet" href="css/components/section-about.css">
-        <link rel="stylesheet" href="css/components/section-projects.css">
-        <link rel="stylesheet" href="css/components/section-skills.css">
-        <link rel="stylesheet" href="css/components/skills-tech.css">
-        <link rel="stylesheet" href="css/components/subtitle.css">
-        <link rel="stylesheet" href="css/components/wrapper-cards.css">
-        <link rel="stylesheet" href="css/components/wrapper-skills.css">
-        <link rel="stylesheet" href="css/reset.css">
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Gabriel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
 
-    <body>
-        <header class="header">
-            <div class="logo">
-                <img src="img/logo-page.png" alt="page logo">
+    <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/button-directions.css">
+    <link rel="stylesheet" href="css/components/button.css">
+    <link rel="stylesheet" href="css/components/card-project.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/paragraph-about.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/section-about.css">
+    <link rel="stylesheet" href="css/components/section-projects.css">
+    <link rel="stylesheet" href="css/components/section-skills.css">
+    <link rel="stylesheet" href="css/components/skills-tech.css">
+    <link rel="stylesheet" href="css/components/subtitle.css">
+    <link rel="stylesheet" href="css/components/wrapper-about.css">
+    <link rel="stylesheet" href="css/components/wrapper-cards.css">
+    <link rel="stylesheet" href="css/components/wrapper-skills.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo-page.png" alt="page logo">
+        </div>
+        <nav>
+            <a class="action-navigation" href="" lang="en">Skills</a>
+            <a class="action-navigation" href="">Projetos</a>
+            <a class="action-navigation" href="">Sobre</a>
+            <a class="action-navigation" href="">Contatos</a>
+            <a class="button" href="" lang="en">Download CV</a>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="wrapper">
+            <div class="box">
+                <h1 class="main-title">Gabriel Gomes</h1>
+                <h2 class="subtitle">FrontEnd Developer</h2>
             </div>
-                
-            <nav>
-                <a class="action-navigation" href="" lang="en">Skills</a>
-                <a class="action-navigation" href="">Projetos</a>
-                <a class="action-navigation" href="">Sobre</a>
-                <a class="action-navigation" href="">Contatos</a>
+            <div class="navigation">
+                <a class="button" href="">Contatos</a>
                 <a class="button" href="" lang="en">Download CV</a>
-            </nav>
-        </header>
+            </div>
+        </div>
+    </section>
+    <section class="section-skills">
+        <h1 class="main-title -second">Skills</h1>
+        <div class="wrapper-skills">
+            <article class="skills-tech">
+                <img class="icon" src="img/ico_html5.png" alt="icon of HTML5">
 
-        <section class="banner">
-            <div class="wrapper">
-                <div class="box">
-                    <h1 class="main-title">Gabriel Gomes</h1>
-                    <h2 class="subtitle">FrontEnd Developer</h2>
+                <div class="right">
+                    <h3 class="title">HTML5</h3>
+                    <progress class="progress-bar" max="100" value="2"></progress>
                 </div>
 
-                <div class="navigation">
-                    <a class="button" href="">Contatos</a>
-                    <a class="button" href="" lang="en">Download CV</a>
+            </article>
+            <article class="skills-tech">
+                <img class="icon" src="img/ico_css3.png" alt="icon of CSS3">
+
+                <div class="right">
+                    <h3 class="title">CSS3</h3>
+                    <progress class="progress-bar" max="100" value="2"></progress>
                 </div>
-            </div>
-        </section>
-        
-        <section class="section-skills">
-            <h1 class="main-title -second">Skills</h1>
 
-            <div class="wrapper-skills">
-                <article class="skills-tech">
-                    <img class="icon" src="img/ico_html5.png" alt="icon of HTML5">  
-                        
-                    <div class="right">                  
-                        <h3 class="title">HTML5</h3>
-                        <progress class="progress-bar" max="100" value="2"></progress>
-                    </div>
-                </article>
+            </article>
+            <article class="skills-tech">
+                <img class="icon" src="img/ico_js.png" alt="icon of JavaScript">
 
-                <article class="skills-tech">
-                    <img class="icon" src="img/ico_css3.png" alt="icon of CSS3">
-                        
-                    <div class="right">
-                        <h3 class="title">CSS3</h3>
-                        <progress class="progress-bar" max="100" value="2"></progress>
-                    </div>
-                </article>
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="0"></progress>
+                </div>
 
-                <article class="skills-tech">
-                    <img class="icon" src="img/ico_js.png" alt="icon of JavaScript">
-                        
-                    <div class="right">
-                        <h3 class="title">JavaScript</h3>
-                        <progress class="progress-bar" max="100" value="0"></progress>
-                    </div>
-                </article>
+            </article>
+            <article class="skills-tech">
+                <img class="icon" src="img/ico_ux.png" alt="icon of UX Design">
+                <div class="right">
+                    <h3 class="title">UX Design</h3>
+                    <progress class="progress-bar" max="100" value="0"></progress>
+                </div>
 
-                <article class="skills-tech">
-                    <img class="icon" src="img/ico_ux.png" alt="icon of UX Design">
-                        
-                    <div class="right">
-                        <h3 class="title">UX Design</h3>
-                        <progress class="progress-bar" max="100" value="0"></progress>
-                    </div>
-                </article>
-            </div>
+            </article>
+        </div>
+    </section>
+    <section class="section-projects">
+        <h1 class="main-title -second">Projetos</h1>
+        <div class="wrapper-cards">
+            <a class="action-cards" href="">
+                <figure class="card-project">
+                    <img class="logo" src="img/logo-firedlabs.png" alt="logo da FireLabs">
+                </figure>
+            </a>
 
-        </section>
+            <a class="action-cards" href="">
+                <figure class="card-project -blue">
+                    <img class="logo" src="img/logo-collabcode.png" alt="logo da CollabCode">
+                </figure>
+            </a>
 
-        <section class="section-projects">
-            <h1 class="main-title -second">Projetos</h1>
+            <a class="action-cards" href="https://gabriellgomesc.github.io/">
+                <figure class="card-project">
+                    <img class="logo" src="img/portfolio.png" alt="logo do Marco Bruno" href="">
+                </figure>
+            </a>
+        </div>
+    </section>
+    <section class="section-about">
+        <h1 class="main-title -second">Sobre</h1>
 
-            <div class="wrapper-cards">
-                <a class="action-cards" href="">
-                    <figure class="card-project">
-                        <img class="logo" src="img/logo-firedlabs.png" alt="logo da FireLabs">
-                    </figure>
-                </a>
+        <div class="wrapper-about">    
+            <a class="button -second" href="">
+                <div class="triangle-left"></div>
+            </a>
 
-                <a class="action-cards" href="">
-                    <figure class="card-project -blue">
-                        <img class="logo" src="img/logo-collabcode.png" alt="logo da CollabCode">
-                    </figure>
-                </a>
-  
-                <a class="action-cards" href="">
-                    <figure class="card-project">
-                        <img class="logo" src="img/portfolio.png" alt="logo do Marco Bruno" href="">
-                    </figure>
-                </a>
-            </div>
-        </section>
+            <a class="button -second" href="">
+                <div class="triangle-right"></div>
+            </a>
+        </div>
 
-        <section class="section-about">
-            <h1 class="main-title -second">Sobre</h1>
-            <p class="paragraph-about">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Gabriel já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Gabriel também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
-        </section>
+        <p class="paragraph-about">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Gabriel já trabalhou nas
+            mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo
+            seu caminho conforme o percorre. Gabriel também tem uma crescente presença em comunidades de UX e Front-end,
+            trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da
+            Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
+    </section>
+</body>
 
-    </body>
 </html>
