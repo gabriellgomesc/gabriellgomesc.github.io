@@ -14,7 +14,7 @@
 
 .main-section.-third {
     background-color: #7C5E99;
+    border-bottom: 10px solid black;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-bottom: 10px solid black;
 }
