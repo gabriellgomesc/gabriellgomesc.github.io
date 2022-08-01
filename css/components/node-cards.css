@@ -1,0 +1,35 @@
+.node-cards {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-cards::before {
+    content: "";
+    position: absolute;
+    bottom: 140px;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 2px dashed black;
+    transform: rotate(90deg) translateX(-62%);
+}
+
+.node-cards .main-subtitle.-second {
+    font-size: 25px;
+    color: #F25A70;
+    text-shadow: none;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.node-cards .logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border: 5px solid black;
+    background-color: #CEB02A;
+    padding-left: 20px;
+    padding-right: 20px;
+}
