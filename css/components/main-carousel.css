@@ -9,12 +9,25 @@
 .main-carousel::after {
     display: block;
     position: absolute;
-    left: 0;
+    left: 75px;
     top: 35px;
     content: "";
-    height: 5px;
-    width: 100%;
+    height: 4px;
+    width: calc(100% - 150px);
     background-color: black;
+}
+
+.main-carousel::before {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    content: "";
+    height: 0px;
+    width: 40px;
+    width: calc(100%);
+    border: 2px dashed black;
+    box-sizing: border-box;
 }
 
 .main-carousel .button-arrow {
